@@ -1,8 +1,8 @@
-Overview
+## **Overview**
 This repository contains an automated web testing framework developed using Java, Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern. The purpose of this project is to automate functional test cases for a web application and ensure its quality through reliable and maintainable test scripts.
 
 
-Features
+## **Features**
 Java-based Selenium automation
 
 TestNG for test execution and management
@@ -26,19 +26,24 @@ Suitable for regression testing and CI integration
 | Maven (optional)   | Project and dependency management      |
 
 
-Project Structure
-testng-pom/
-├── src/
-│   ├── main/java/
-│   │   └── pages/           # Page Object classes
-│   └── test/java/
-│       └── tests/           # TestNG test classes
-├── testng.xml               # TestNG suite configuration
-├── pom.xml                  # Maven config (if using Maven)
-├── README.md                # Project documentation
+## **Project Structure**
+<pre> ```bash 
+📦 testng-pom/
+├── 📁 src/
+│   ├── 📁 main/
+│   │   └── 📁 java/
+│   │       └── 📁 pages/         # Page Object classes
+│   └── 📁 test/
+│       └── 📁 java/
+│           └── 📁 tests/         # TestNG test classes
+├── 📄 testng.xml                 # TestNG suite configuration
+├── 📄 pom.xml                    # Maven build configuration
+├── 📄 README.md                  # Project documentation
+  ``` </pre>
 
 
-Prerequisites
+
+## **Prerequisites**
 Java 8 or later
 
 Maven (if using)
@@ -47,7 +52,7 @@ ChromeDriver or appropriate WebDriver in system PATH
 
 IntelliJ IDEA or Eclipse
 
-Steps
+## **Steps**
 Clone the repository:
 
 bash
@@ -68,6 +73,6 @@ Copy
 Edit
 mvn clean test
 
-Contribution
+## **Contribution**
 
 Feel free to fork this project and contribute by submitting a pull request. For major changes, please open an issue first to discuss the change.
