@@ -27,7 +27,7 @@ Suitable for regression testing and CI integration
 
 
 ## **Project Structure**
-<pre> ```bash 
+<pre>
 📦 testng-pom/
 ├── 📁 src/
 │   ├── 📁 main/
@@ -39,7 +39,7 @@ Suitable for regression testing and CI integration
 ├── 📄 testng.xml                 # TestNG suite configuration
 ├── 📄 pom.xml                    # Maven build configuration
 ├── 📄 README.md                  # Project documentation
-  ``` </pre>
+ </pre>
 
 
 
@@ -54,16 +54,13 @@ IntelliJ IDEA or Eclipse
 
 ## **Steps**
 Clone the repository:
-
-bash
-
 git clone https://github.com/rasheed0405/testng-pom.git
 cd testng-pom
 
 
 Open the project in your preferred IDE.
 
-Run tests via TestNG XML:
+**Run tests via TestNG XML**:
 
 Right-click testng.xml → Run
 
