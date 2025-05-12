@@ -10,7 +10,3 @@ deploy:
         path: reports/
     - name: Publish reports
       run: |
-        # Example: Copy reports to a server (replace with your server details)
-        scp reports/ExtentReport.html user@your-server:/path/to/reports/
-      env:
-        SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
